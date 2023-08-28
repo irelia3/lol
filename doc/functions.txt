@@ -1,0 +1,39 @@
+# getplayergames
+
+Function that, from gol.gg (maybe other sites) gets games per player with champions, eg:
+
+Hans sama:
+	- 10 xayah
+	- 10 kaisa
+	- 3 kogmaw
+
+etc.
+
+# getmatchup
+
+matchup info
+
+
+
+# getavggamelength
+
+Get average gaem length per team
+
+
+# Get champions by player
+
+Uzi
++---+ +---+ +---+ +---+ +---+ +---+
+| X | | A | | B | | D | | H | | C |
++---+ +---+ +---+ +---+ +---+ +---+
+9W/1L 3W/6L 
+ 35%   30%
+
+# Input game data
+
+Data for game, not match(series)
+
+Champ: Tristana
+Is: B1, BB1 (Blue ban 1), R2 (Red 2), RB2(Red ban 2),
+Position: Bot
+Player: Gala

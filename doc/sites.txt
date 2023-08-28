@@ -1,0 +1,18 @@
+# https://selenium-python.readthedocs.io/index.html
+
+Unofficial selenium with python docs.
+
+---------------------------------------------------
+
+# https://oracleselixir.com/
+
+Player stats by champion.
+
+# https://gol.gg
+
+General stats.
+
+# https://app.mobalytics.gg/lol/champions/rumble/counters/top/vs-irelia
+# https://app.mobalytics.gg/lol/champions/rumble/counters/top/vs-camille?rank=MasterPlus
+
+Matchup stats (GD@15, XPD@15, CSD@15)
