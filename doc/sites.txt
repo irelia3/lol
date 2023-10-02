@@ -1,6 +1,4 @@
-# https://selenium-python.readthedocs.io/index.html
-
-Unofficial selenium with python docs.
+CHECK LEAGUEOFGRAPHS
 
 ---------------------------------------------------
 
