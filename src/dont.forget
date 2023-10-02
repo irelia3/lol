@@ -1,0 +1,2 @@
+find . -name 'selenium-manager'
+./venv/lib/python3.9/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --driver chromedriver
