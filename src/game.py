@@ -6,11 +6,10 @@ red = ["TOPR", "JNGR", "MIDR", "BOTR", "SUPR"]
 def list_matchups(blue, red):
 
     # This returns an "iterator" of tuples
-    onevs = list(zip(blue, red))
+    vs = list(zip(blue, red))
 
-    for x in onevs:
+    for x in vs:
         print(x)
 
 list_matchups(blue, red)
 
-test
