@@ -12,3 +12,5 @@ def list_matchups(blue, red):
         print(x)
 
 list_matchups(blue, red)
+
+test
