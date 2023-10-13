@@ -37,3 +37,9 @@ Champ: Tristana
 Is: B1, BB1 (Blue ban 1), R2 (Red 2), RB2(Red ban 2),
 Position: Bot
 Player: Gala
+
+
+
+################## Heuristics (Simple Rules)
+
+Draft (team comps themes) matter only if the lanes can be played, you can draft stand your ground vs hard engage and theoretically be at an advantage, but if your lanea are so one sided you are gona fall turbo behind in 15 minutes, it doesnt matter that you have a theme answer.
