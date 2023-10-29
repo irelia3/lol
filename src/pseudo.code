@@ -1,0 +1,29 @@
+
+Function nomenclature:
+
+ - fetch-XX : Fetch info from websites/my DB, etc.
+ - get-XX: Input data from user.
+
+
+def main
+
+    call get-game ()
+
+    call fetch-prematch-info (Draft independant info)
+    
+        call fetch-leagueinfo (week?day?game?)
+        call fetch-teams
+            call fetch-team-stats (Avg game length, kills, deaths, etc) (Furhter down the road, avg game length with specific champs/champ combinations)
+        call fetch-rosters
+        call fetch-playerinfo (player infographic (stats, top5 champs, etc)
+        call compare-play-v-player (compare players, topvtop, jngvsjng, etc)
+        
+    call gather-match-info (Draft dependant info)
+    
+        call fetch-matchup-info-soloq (champ vs champ from soloq data master+)
+        call fetch-matchup-info-competitive (champ vs champ from gol.gg)
+        call fetch-player+champ-info (player+champ combination (detect Adam darius, and the contrary xd))
+        call fetch-playervschamp-info (a bit edgy, but what about stats of players vs specific champs, mentalblocks etc)
+        call fetch-playervsplayer-info (player vs player stats)
+        
+    
