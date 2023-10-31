@@ -4,6 +4,7 @@ Function nomenclature:
  - fetch-XX : Fetch info from websites/my DB, etc.
  - get-XX: Input data from user.
 
+===========================================================================================================================================================
 
 def main
 
@@ -26,4 +27,6 @@ def main
         call fetch-playervschamp-info (a bit edgy, but what about stats of players vs specific champs, mentalblocks etc)
         call fetch-playervsplayer-info (player vs player stats)
         
-    
+==========================================================================================================================================================
+
+  
