@@ -1,8 +1,13 @@
 
 Function nomenclature:
 
- - fetch-XX : Fetch info from websites/my DB, etc.
- - get-XX: Input data from user.
+ - fetch-XX/scrape-XX : Fetch info from websites/my DB, etc.
+ - get-XX/input-XX: Input data from user.
+
+Concepts:
+
+ - match = series (Bo1, Bo3 or Bo5)
+ - game  = single game.
 
 ===========================================================================================================================================================
 
@@ -29,4 +34,19 @@ def main
         
 ==========================================================================================================================================================
 
-  
+def main
+
+	call fetch-prematch-info (Draft-independant match info)
+		call fetch-team-info (Draft-independant team info: roster, avg game length, blue/red winrate, etc)
+			call fetch-player-info (Draft-independant player info: champ pool, pocket picks, weak matchups etc)
+
+	
+	call game-info (Draft-dependant info)
+		call draft (Input blue/red side, champs+position, pick order, summoners and runes (? scrap from lolesports.com))
+		call fetch-champ-stats (Single champ stats, soloQ and Competitive)
+		call fetch-player+champ-info
+		call scrape-matchups (fetch matchup data (maybe 2v2 3v3 is possible?))
+			matchups = ['', , 'd'] (array of matchups passed to the function)
+			for i in matchups:
+				do()
+		
